@@ -1,0 +1,24 @@
+{
+  "name": "etherealsearch-videos",
+  "version": "1.0.0",
+  "description": "EtherealSearch Demo Videos with Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render Main out/video.mp4",
+    "render:hero": "remotion render HeroDemo out/hero-demo.mp4",
+    "render:agentic": "remotion render AgenticDemo out/agentic-demo.mp4",
+    "render:features": "remotion render FeaturesDemo out/features-demo.mp4",
+    "render:all": "npm run render:hero && npm run render:agentic && npm run render:features"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.230",
+    "@remotion/transitions": "4.0.230",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.230"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.4.5"
+  }
+}
